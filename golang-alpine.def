@@ -1,2 +1,3 @@
 BootStrap: docker
-From: golang:1.8.0-alpine
+From: golang:1.7.5-alpine3.5
+
