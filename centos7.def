@@ -2,7 +2,7 @@ BootStrap: docker
 From: centos:centos7.3.1611
 
 %post
-	"echo "Installing dev tools"
+	echo "Installing dev tools"
 	yum -y groupinstall "Development Tools"
 	echo "Install GIT / VIM "
 	yum -y install vim git
